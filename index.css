@@ -387,12 +387,16 @@ body {
     }
     .beer .bottom .reus .box .box-title p {
         font-size: 8px;
-        width: 150px;
+        width: 200px;
     }
     .beer .bottom .reus .start h2 {
         font-size: 17px;
     }
     .beer .bottom .reus .start p{
         font-size: 8px;
+    }
+    .beer .bottom .reus .box .box-logo img {
+        width: 200px;
+        height: 200px;
     }
 }
