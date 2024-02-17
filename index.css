@@ -384,10 +384,12 @@ body {
     }
     .beer .bottom .reus .box .box-title h2 {
         font-size: 17px;
+        margin-bottom: 0;
     }
     .beer .bottom .reus .box .box-title p {
         font-size: 8px;
-        width: 200px;
+        width: 190px;
+        margin-bottom: 0;
     }
     .beer .bottom .reus .start h2 {
         font-size: 17px;
@@ -398,5 +400,9 @@ body {
     .beer .bottom .reus .box .box-logo img {
         width: 200px;
         height: 200px;
+    }
+    .beer .bottom .reus button.check {
+        font-size: 8px;
+        margin-top: 2px;
     }
 }
