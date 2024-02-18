@@ -134,14 +134,21 @@ body {
     font-size: 24px;
 }
 .beer .bottom .photo {
+    max-width: 589px;
+    overflow: hidden;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(0, -5%);
 }
+.beer .bottom .photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .beer .bottom .reus {
     position: absolute;
-    top: 10%;
+    top: 11%;
     left: 0;
     transform: translate(0, -8%);
     width: 100%;
@@ -159,7 +166,7 @@ body {
     right: 22%;
     top: 5%;
     transform: translate(-25%, -35%);
-    width: 220px;
+    max-width: 220px;
 }
 
 .beer .bottom .reus .reus-bottom {
@@ -167,6 +174,7 @@ body {
     top: 40%;
     left: 10%;
     transform: translate(0%, -40%);
+    max-width: 1000px;
 }
 
 .beer .bottom .reus .reus-text {
@@ -181,7 +189,6 @@ body {
     font-size: 24px;
     font-family: "Amiri", serif;
     font-weight: 400;
-    max-width: 1000px;
 }
 .beer .bottom .reus button.check {
     margin-top: 20px;
@@ -229,6 +236,12 @@ body {
     top: 0;
     right: 0;
     transform: translate(0%, -10%);
+    max-width: 980px;
+    overflow: hidden;
+}
+.beer .bottom .reus .box .box-logo img {
+    width: 100%;
+    height: auto;
 }
 .beer .bottom .reus .start {
     /* position: absolute; */
@@ -265,145 +278,4 @@ body {
     cursor: pointer;
     font-family: "Amiri", serif;
     font-weight: 400;
-}
-@media only screen and (max-width: 600px) {
-    .beer .top .logo img {
-        width: 80px;
-        height: 80px;
-    }
-    .beer .top .horizontal .horizontal-h3 {
-        font-size: 30px;
-    }
-    .beer .top .horizontal .horizontal-line {
-        width: 100px;
-    }
-    .beer .top .title-h3 {
-        font-size: 15px;
-        width: 100%;
-        text-align: center;
-        margin-top: 10px
-    }
-    .beer .bottom .text {
-        top: 2%;
-    }
-    .beer .top .view-more {
-        bottom: 0;
-    }
-    .beer .top .title-h4, .view-more a {
-        font-size: 12px !important;
-        margin-top: 20px;
-    }
-    .beer .bottom .reus .reus-top img.logo-beer {
-        width: 70px;
-        right: 20%;
-        transform: translate(-25%, -35%);
-    }
-    .beer .bottom .text .text-h2, .reus-text {
-        font-size: 20px !important;
-    }
-    .beer .bottom .text .text-h4 {
-        font-size: 10px;
-        width: 250px;
-    }
-    .beer .bottom .reus {
-        top: 15%;
-    }
-    .beer .bottom .photo {
-        transform: translate(0, -8%);
-    }
-    .beer .bottom .photo img {
-        width: 170px;
-        height: 190px;
-    }
-    .beer .bottom .reus .reus-title {
-        font-size: 10px;
-        max-width: 280px;
-    }
-    .beer .bottom .reus button.check {
-        font-size: 10px;
-        padding: 1px 20px;
-        margin-top: 10px;
-    }
-    .beer .bottom .reus .box .box-logo img {
-        width: 240px;
-        height: 240px;
-    }
-    .beer .bottom .reus .box .box-title h2 {
-        font-size: 20px;
-        width: 100px;
-        margin-bottom: 10px;
-    }
-    .beer .bottom .reus .box .box-title {
-        padding: 24px;
-    }
-    .beer .bottom .reus .box .box-title p {
-        font-size: 12px;
-        width: 260px;
-        margin-bottom: 5px;
-    }
-    .beer .bottom .reus .start h2 {
-        font-size: 20px;
-     }
-    .beer .bottom .reus .box {
-        height: auto;
-     }
-    .beer .bottom .reus .start p{
-        font-size: 10px;
-     }
-     .beer .bottom .reus .start button.btn{
-        font-size: 10px;
-        padding: 1px 20px;
-        margin-top: 10px;
-     }
-}
-@media only screen and (max-width: 445px)  {
-    .beer .top .logo img {
-        width: 50px;
-        height: 50px;
-    }
-    .beer .bottom .text {
-        left: 15%;
-    }
-    .beer .bottom .text .text-h4 {
-        font-size: 8px;
-        width: 220px;
-    }
-    .beer .bottom .reus .reus-bottom {
-        left: 5%;
-    }
-    .beer .bottom .reus .reus-title {
-        font-size: 8px;
-        max-width: 200px;
-    }
-    .beer .bottom .text .text-h2, .reus-text {
-        font-size: 15px !important;
-    }
-    .beer .bottom .reus .reus-top img.logo-beer {
-        width: 50px;
-        right: 31.5%;
-    }
-    .beer .bottom .reus .box .box-title h2 {
-        font-size: 17px;
-        margin-bottom: 0;
-    }
-    .beer .bottom .reus .box .box-title p {
-        font-size: 8px;
-        width: 190px;
-        padding-right: 3px;
-        margin-bottom: 0;
-    }
-    .beer .bottom .reus .start h2 {
-        font-size: 17px;
-    }
-    .beer .bottom .reus .start p{
-        font-size: 8px;
-    }
-    .beer .bottom .reus .box .box-logo img {
-        width: 200px;
-        height: 200px;
-    }
-    .beer .bottom .reus button.check {
-        font-size: 8px;
-        margin-top: 2px;
-    }
 }
